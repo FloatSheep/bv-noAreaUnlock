@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "187350504437",
+    "project_id": "bv-noptp",
+    "storage_bucket": "bv-noptp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187350504437:android:96ea67dbac16ae8c6186bc",
+        "android_client_info": {
+          "package_name": "dev.aaa1115910.bv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsqBa4E1vApYMcKRjHZE06cXomUISkpeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187350504437:android:a6c315b52227d5856186bc",
+        "android_client_info": {
+          "package_name": "dev.aaa1115910.bv.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsqBa4E1vApYMcKRjHZE06cXomUISkpeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187350504437:android:3b9736f2a734d98b6186bc",
+        "android_client_info": {
+          "package_name": "dev.aaa1115910.bv.r8test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsqBa4E1vApYMcKRjHZE06cXomUISkpeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
