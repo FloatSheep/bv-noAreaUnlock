@@ -46,14 +46,14 @@ class MainActivity : ComponentActivity() {
 
             LaunchedEffect(Unit) {
                 val user = userRepository.findUserByUid(userRepository.uid)
-                userLockLocked = user?.lock?.isNotBlank() ?: false
+                userLockLocked = false // 取消用户锁
                 logger.info { "default user: ${user?.username}" }
                 isCheckingUserLock = false
             }
 
             LaunchedEffect(Unit) {
                 scope.launch(Dispatchers.Default) {
-                    isMainlandChina = NetworkUtil.isMainlandChina()
+                    isMainlandChina = false // 取消地区锁
                     isCheckingNetwork = false
                     keepSplashScreen = false
                 }
